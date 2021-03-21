@@ -6,6 +6,20 @@ Data and instructions provided by UC Berkeley Extension Data Analytics Bootcamp.
 
 The goal of this assignment is to use my newfound knowledge and skills on machine learning to create models capable of classifying candidate exoplanets from the raw dataset.
 
+# Reporting
+
+#### Comparison between the KNN and SVM models:
+
+Both models yielded the same prediction accuracy rate, which is 87%. Nevertheless, the processes of feature selections and fine tuning are different for each model. To elaborate, for the KNN model, it yielded a higher accuracy rate if I select features with higher rating (> 0.08) after using the Random Forest Classifier for examination. On the other hand, for the SVM, it did not need the Random Forest Classifier to identify the more relevant features. It yielded a higher accuracy when I used all features.
+
+The hyperparameter tuning process was also different for both models. For the KNN model, the accuracy improved when I increased the knn range from 20 to 50. For the SVM mode, I used 'C':[1, 5, 10], 'gamma': [0.0001, 0.001, 0.01] to get the current accuracy.
+
+####
+
+
+    
+
+
 # Technologies/Libraries
 
 - python
@@ -58,7 +72,8 @@ The goal of this assignment is to use my newfound knowledge and skills on machin
 My first assignment working with sklearn to create machine learning model. I used class materials and outside resources for reference. 
 
 Here are the outside resources that I used for this assignment (as well as attempts):
-
+    
+    - https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html
     - https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
     - https://www.ritchieng.com/machine-learning-efficiently-search-tuning-param/
     - https://data-flair.training/blogs/svm-kernel-functions/
