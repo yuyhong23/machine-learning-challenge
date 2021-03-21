@@ -16,7 +16,7 @@ The hyperparameter tuning process was also different for both models. For the KN
 
 #### Summary
 
-I think my model would be good enough to predict new exoplanets with prediction accuracy of 87%. I think there are still many things I could do and try to improve my model accuracy, such as spending more time to address the SVM model's parameter grid for hypyerparameter tuning, and trying to add more parameters. For the KNN model, I could also try adjusting the hyperparameter tuning to improve the accuracy. Last but not least, it is likely that these two models that I created weren't the most suitable model to give us an amazing prediction accuracy. 
+I think my model would be good enough to predict new exoplanets with prediction accuracy of 87%. The hyperparameter tuning process did improve both models' accuracy. I think there are still many things I could do and try to improve my model accuracy, such as spending more time to address the SVM model's parameter grid for hypyerparameter tuning, and trying to add more parameters. For the KNN model, I could also try adjusting the hyperparameter tuning to improve the accuracy. Last but not least, it is likely that these two models that I created weren't the most suitable model to give us an amazing prediction accuracy. 
 
 # Technologies/Libraries
 
