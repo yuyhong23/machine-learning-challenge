@@ -47,12 +47,22 @@ The goal of this assignment is to use my newfound knowledge and skills on machin
 
 # Files
 
-    - 
-
-
-
+    - README.md contains my reporting in addition to assignment details
+    - exoplanet_data.csv is the data I used
+    - model_1_KNN.ipynb is the jupyter notebook I used to create the KNN model
+    - model_2_SVM.ipynb is the jupyter notebook I used to create the SVM model
+    - yuying.sav is the file that contain the file of my best model (both models yield the same accuracy, I randomly picked model 2)
+    
 # Process and Credits
 
 My first assignment working with sklearn to create machine learning model. I used class materials and outside resources for reference. 
 
 Here are the outside resources that I used for this assignment (as well as attempts):
+
+    - https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+    - https://www.ritchieng.com/machine-learning-efficiently-search-tuning-param/
+    - https://data-flair.training/blogs/svm-kernel-functions/
+    - https://www.kdnuggets.com/2016/06/select-support-vector-machine-kernels.html
+    - https://www.baeldung.com/cs/svm-multiclass-classification
+    - https://stackoverflow.com/questions/55314345/how-to-find-feature-importance-or-variable-importance-graph-for-knnclassifier
+    - https://machinelearningmastery.com/hyperparameters-for-classification-machine-learning-algorithms/
