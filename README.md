@@ -1,4 +1,4 @@
-# Exoplanet Exploration
+# Machine Learning: Exoplanet Exploration
 
 Data and instructions provided by UC Berkeley Extension Data Analytics Bootcamp.
 
