@@ -32,6 +32,8 @@ I think my model would be good enough to predict new exoplanets with prediction 
 
 - joblib
 
+- conda environment: PythonAdv
+
 # Detailed Instructions/Assignment Background
 
 ### Background
